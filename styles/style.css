@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* title sec */
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.nav ul {
+  display: flex;
+  gap: 45px;
+  list-style: none;
+  color: #424247;
+  padding: 1rem 0;
+}
+
+/* explore or search sec */
+
+.explore {
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(19, 19, 24, 0.8) 0%,
+        rgba(19, 19, 24, 0) 100%
+      ),
+      url(../Images/explore.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    text-align: center;
+    color: #fff;
+    padding: 100px 200px;
+}
+
+.explore h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.explore p{
+    line height: 1.625rem;
+}
+
+.search{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    height: 100%;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+.search input, button{
+    width: 18%;
+    padding: 15px;
+    color: rgba(19, 19, 24, 0.50);
+    border: 0;
+    border-radius: 8px;
+}
+
+.search select {
+    padding: 14px 0;
+    border: 0;
+    border-radius: 8px;
+}
+
+.search button {
+    color: #fff;
+    background: #FF5400;
+}
