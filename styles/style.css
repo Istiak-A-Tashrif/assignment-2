@@ -54,7 +54,8 @@
 }
 
 .explore p{
-    line height: 1.625rem;
+    line-height: 1.625rem;
+    color: #FFF;
 }
 
 .search{
@@ -115,6 +116,9 @@
 
 /* destination sec */
 
+.dest{
+  margin-bottom: 6.25rem;
+}
 .dest-img1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -141,3 +145,38 @@
   object-fit: cover;
 }
 
+/* why choose us */
+.why{
+  margin-bottom: 3rem;
+}
+ .why h1 {
+  color: #131318;
+  text-align: center;
+  font-size: 2.5rem;
+ }
+ .why p {
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  line-height: 1.5rem;
+ }
+ .card1 h3, .card2 h3, .card3 h3 {
+  color: #131318;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+ }
+ .card1 p, .card2 p, .card3 p {
+  color: #5A5A5D;
+  line-height: 1.5rem;
+ }
+ .feature {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+ }
+ .card1, .card2 {
+  width: 48%;
+ }
+.card3 {
+  margin: 1.5rem auto;
+  width: 40%;
+}
