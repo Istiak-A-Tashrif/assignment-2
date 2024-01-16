@@ -100,7 +100,7 @@
 .tours .des *{
   margin-bottom: 1.5rem;
 }
-.tours .des ul li{
+.tours .des ul li {
   margin: 0.5rem 1.5rem; 
 }
 .tours h1 {
@@ -112,3 +112,32 @@
 .tours .des strong {
   color: black;
 }
+
+/* destination sec */
+
+.dest-img1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.dest-img2 {
+  display: grid;
+  gap:1.5rem;
+  grid-template-columns: 1fr 2fr 1fr;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}  
+.dest-img3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap:1.5rem;
+  width: 100%;
+}
+.dest-img1 img, .dest-img2 img, .dest-img3 img  {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
