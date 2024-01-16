@@ -69,13 +69,13 @@
     width: 18%;
     padding: 15px;
     color: rgba(19, 19, 24, 0.50);
-    border: 0;
+    border: none;
     border-radius: 8px;
 }
 
 .search select {
     padding: 14px 0;
-    border: 0;
+    border: none;
     border-radius: 8px;
 }
 
@@ -284,4 +284,58 @@
 .sazek video {
   height: 80%;
   border-radius: 0.5rem;
+}
+
+/* newsletter sec */
+.newsletter{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 6.25rem;
+}
+.news-l *{
+  display: block;
+  width: 70%;
+}
+.news-l h3{
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.news-l input{
+  width: 50%;
+  border: none;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  margin: 1rem 0;
+  color: rgba(19, 19, 24, 0.30);
+  font-size: 1rem;
+  padding: 1rem;
+}
+.save70 p{
+  background: #FF5400;
+  width: max-content;
+  color: #FFF;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 8px;
+}
+.save70 p a{
+  text-decoration: none;
+  color: #FFF;
+}
+.news-img{
+  position: relative;
+  /* max-width: 50%; */
+}
+.nature-img img{
+  width: 80%;
+  height: 100%;
+}
+.save70 {
+  position: absolute;
+  left: 40%;
+  bottom: 80px;
+  transform: rotate(-45deg);
 }
