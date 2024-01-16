@@ -11,6 +11,7 @@
 .title {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 3rem;
 }
 
 .name {
@@ -19,14 +20,14 @@
 
 .nav a{
     text-decoration: none;
+    color: #424247;
 }
 
 .nav ul {
   display: flex;
   gap: 45px;
   list-style: none;
-  color: #424247;
-  padding: 1rem 0;
+  padding: 1.2rem 0;
 }
 
 /* explore or search sec */
@@ -44,6 +45,7 @@
     text-align: center;
     color: #fff;
     padding: 100px 200px;
+    margin-bottom: 8rem;
 }
 
 .explore h1 {
@@ -62,7 +64,7 @@
     padding: 1rem;
     margin-top: 3rem;
 }
-.search input, button{
+.search input, select, button{
     width: 18%;
     padding: 15px;
     color: rgba(19, 19, 24, 0.50);
@@ -79,4 +81,34 @@
 .search button {
     color: #fff;
     background: #FF5400;
+}
+
+/* tour sec */
+
+.tours{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8rem;
+  width: 100%;
+}
+.des{
+  max-width: 50%;
+}
+.des-img {
+  overflow: hidden;
+}
+.tours .des *{
+  margin-bottom: 1.5rem;
+}
+.tours .des ul li{
+  margin: 0.5rem 1.5rem; 
+}
+.tours h1 {
+  font-size: 2.4rem;
+}
+.tours .des li, p {
+  color: rgba(19, 19, 24, 0.70);
+}
+.tours .des strong {
+  color: black;
 }
