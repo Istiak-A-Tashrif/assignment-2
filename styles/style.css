@@ -225,7 +225,6 @@
   background-image: url(../Images/deal1.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left;
   padding: 3.5rem;
   margin-bottom: 1.5rem;
 }
@@ -233,7 +232,6 @@
   background-image: url(../Images/deal2.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left;
   padding: 3.5rem;
   margin-bottom: 1.5rem;
 }
@@ -253,37 +251,40 @@
   color: #FFF;
 }
 
-/* bd sec */
-.bangladesh{
+/* bd & malaysia sec */
+.bd-malay{
   display: flex;
   justify-content: space-evenly;
   height: 100%;
   margin: 6.25rem 0;
 }
-.bd {
+.bm {
   max-width: 50%;
 }
-.bd h1{
+.bm h1{
   color: #131318;
   font-size: 2.5rem;
   line-height: 3.75rem;
   margin-bottom: 1.5rem;
 }
-.bd p {
+.bm p {
   color: #5A5A5D;
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
 }
-.bd ul {
+.bm ul {
   margin-left: 1.5rem;
   font-weight: 700;
 }
-.bd button {
+.bm button {
   margin-top: 2rem;
 }
-.sazek video {
+.place video {
   height: 80%;
   border-radius: 0.5rem;
+}
+#malay {
+  max-width: 50%;
 }
 
 /* newsletter sec */
@@ -339,3 +340,30 @@
   bottom: 80px;
   transform: rotate(-45deg);
 }
+
+/* footer sec */
+.foot{
+  background: rgba(19, 19, 24, 0.05);
+  text-align: center;
+}
+.foot h1 #zoro{
+  display: block;
+  font-size: 2rem;
+}
+.foot p{
+  color: #5A5A5D;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.icon i{
+  color: #131318;
+  font-size: 1.2rem;
+}
+
+
+

@@ -1,0 +1,97 @@
+@media screen and (max-width:600px) {
+    *{
+        margin: 0.2rem;
+    }
+    /* title */
+    .title{
+        display: block;
+        text-align: center;
+    }
+    .title h1 {
+        padding-right: 2.5rem;
+    }
+    .nav nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* explore sec */
+    .explore{
+        padding: 0;
+    }
+    .explore h1{
+        font-size: 2rem;
+    }
+    .search * {
+        display: block;
+        margin: 1rem auto;
+        width: 100%;
+    }
+    .search input{
+        width: 95%;
+    }
+    .search button i{
+       display: inline;
+    }
+
+    /* tours sec */
+    .tours {
+        flex-direction: column;
+    }
+    .des {
+        max-width: 100%;
+    }
+    /* destination */
+    .dest-img1, .dest-img2, .dest-img3 {
+        display: flex;
+        flex-direction: column;
+    }
+    /* why choose us */
+    .feature {
+        flex-direction: column;
+    }
+    .card1, .card2, .card3 {
+        width: 100%;
+    }
+
+    /* deals & discounts */
+    .deal1, .deal2, .deal3 {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .deal1 button, .deal2 button, .deal3 button {
+        width: max-content;
+    }
+
+    /* bangladesh & malaysia sec */
+    .bd-malay {
+        flex-direction: column;
+    }
+    .bd-malay .bm {
+        max-width: 100%;
+    }
+    .place video {
+        height: 100%;
+        width: 100%;
+    }
+    #malay{
+        max-width: 100%;
+    }
+
+    /* newslwtter sec */
+    .newsletter {
+        flex-direction: column;
+    }
+    .nature-img img{
+        width: 100%;
+    }
+    .save70{
+        left: 50%;
+    }
+
+    /* footer sec */
+    .foot h1 #zoro {
+        display: block;
+    }
+    }

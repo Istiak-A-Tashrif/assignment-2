@@ -12,307 +12,378 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive-style.css">
   </head>
   <body>
-    <!-- title sec -->
-    <section class="title">
-      <div class="name">
-        <h1>
-          <img src="Images/plane.png" alt="" /> Zoro
-          <span style="color: #ff5400">Travel</span>
-        </h1>
-      </div>
-      <div class="nav">
-        <nav>
-          <ul>
-            <li><a style="color: #ff5400">Home</a></li>
-            <li><a href="">Packages</a></li>
-            <li><a href="">Testimonial</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </section>
+    <header>
+      <!-- title sec -->
+      <section class="title">
+        <div class="name">
+          <h1>
+            <img src="Images/plane.png" alt="" /> Zoro
+            <span style="color: #ff5400">Travel</span>
+          </h1>
+        </div>
+        <div class="nav">
+          <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <nav>
+            <ul>
+              <li><a style="color: #ff5400">Home</a></li>
+              <li><a href="">Packages</a></li>
+              <li><a href="">Testimonial</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </header>
 
-    <!-- explore or search sec -->
-    <section class="explore">
-      <div class="">
-        <h1>Explore Your Travel</h1>
-        <p>
-          The world is full of mystery. Waiting for you to explore and discover.
-          We’re here to inspire you and help you plan your trip.
-        </p>
-      </div>
-      <div class="search">
-        <input type="text" placeholder="Where go" />
-        <select name="" id="" style="border: 0">
-          <option value="disabled selected">When</option>
-        </select>
-        <select name="" id="" style="border: 0">
-          <option value="disabled selected">Select Type</option>
-        </select>
-        <button><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
-      </div>
-    </section>
-    <!-- popular tours -->
-    <section class="tours">
-      <div class="des">
-        <h1>Our Popular Tours</h1>
-        <p>
-          Discover a world of enchanting experiences with our popular tours.
-          Whether you crave adventure, cultural exploration, or serene getaways,
-          our carefully crafted itineraries promise to make every moment
-          extraordinary.
-        </p>
-        <ul>
-          <li>
-            <strong>Majestic Mountains Expedition:</strong> Conquer peaks,
-            embrace nature, and experience the thrill of the great outdoors
-          </li>
-          <li>
-            <strong>Cultural Odyssey through Historic Cities:</strong> Immerse
-            yourself in the rich history and vibrant culture of ancient
-            landmarks and local markets.
-          </li>
-          <li>
-            <strong>Tropical Paradise Escape:</strong> Relax on sun-kissed
-            beaches, explore coral reefs, and soak in the beauty of tropical
-            landscapes.
-          </li>
-        </ul>
-        <p>
-          Join us on these transformative journeys where each moment becomes a
-          part of your unique travel story. Adventure awaits – start creating
-          your unforgettable memories with us!
-        </p>
-        <button
-          style="
-            border-radius: 8px;
-            background: #ff5400;
-            color: #fff;
-            font-size: 1.2rem;
-            width: fit-content;
-          "
-        >
-          Read More
-        </button>
-      </div>
-      <div class="des-img">
-        <img src="Images/des-img.png" alt="" />
-      </div>
-    </section>
-    <section>
-      <div class="dest">
+    <main>
+      <!-- explore or search sec -->
+      <section class="explore">
+        <div class="">
+          <h1>Explore Your Travel</h1>
+          <p>
+            The world is full of mystery. Waiting for you to explore and
+            discover. We’re here to inspire you and help you plan your trip.
+          </p>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Where go" />
+          <select name="" id="" style="border: 0">
+            <option value="disabled selected">When</option>
+          </select>
+          <select name="" id="" style="border: 0">
+            <option value="disabled selected">Select Type</option>
+          </select>
+          <button><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+        </div>
+      </section>
+      <!-- popular tours -->
+      <section class="tours">
+        <div class="des">
+          <h1>Our Popular Tours</h1>
+          <p>
+            Discover a world of enchanting experiences with our popular tours.
+            Whether you crave adventure, cultural exploration, or serene
+            getaways, our carefully crafted itineraries promise to make every
+            moment extraordinary.
+          </p>
+          <ul>
+            <li>
+              <strong>Majestic Mountains Expedition:</strong> Conquer peaks,
+              embrace nature, and experience the thrill of the great outdoors
+            </li>
+            <li>
+              <strong>Cultural Odyssey through Historic Cities:</strong> Immerse
+              yourself in the rich history and vibrant culture of ancient
+              landmarks and local markets.
+            </li>
+            <li>
+              <strong>Tropical Paradise Escape:</strong> Relax on sun-kissed
+              beaches, explore coral reefs, and soak in the beauty of tropical
+              landscapes.
+            </li>
+          </ul>
+          <p>
+            Join us on these transformative journeys where each moment becomes a
+            part of your unique travel story. Adventure awaits – start creating
+            your unforgettable memories with us!
+          </p>
+          <button
+            style="
+              border-radius: 8px;
+              background: #ff5400;
+              color: #fff;
+              font-size: 1.2rem;
+              width: fit-content;
+            "
+          >
+            Read More
+          </button>
+        </div>
+        <div class="des-img">
+          <img src="Images/des-img.png" alt="" />
+        </div>
+      </section>
+
+      <!-- choose your destination -->
+      <section>
+        <div class="dest">
+          <h1
+            style="
+              font-size: 2.5rem;
+              text-align: center;
+              color: #131318;
+              margin-bottom: 1.5rem;
+            "
+          >
+            Choose Your Destination
+          </h1>
+          <p
+            style="
+              text-align: center;
+              color: rgba(19, 19, 24, 0.7);
+              margin-bottom: 3rem;
+            "
+          >
+            Destination Dreams: Discover, Explore, Unwind. Your Adventure Awaits
+            – Choose Your Next Escape with Us!
+          </p>
+          <div class="dest-img">
+            <div class="dest-img1">
+              <img src="Images/maldives.png" alt="" />
+              <img src="Images/Indonesia.png" alt="" />
+            </div>
+            <div class="dest-img2">
+              <img src="Images/srilanka.png" alt="" />
+              <img src="Images/N america.png" alt="" />
+              <img src="Images/kashmir.png" alt="" />
+            </div>
+            <div class="dest-img3">
+              <img src="Images/Bangla.png" alt="" />
+              <img src="Images/bandorban.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- why choose sec -->
+      <section>
+        <div class="why">
+          <h1>Why Choose Us</h1>
+          <p>
+            Exceptional service, curated adventures, and customer satisfaction.
+            Choose us for seamless travel experiences that create lasting
+            memories and exceed expectations.
+          </p>
+        </div>
+        <div class="feature">
+          <div class="card1">
+            <i
+              style="color: #fedfad; font-size: 4rem; margin-bottom: 2rem"
+              class="fa-solid fa-hotel"
+            ></i>
+            <h3>Handpicked Hotels</h3>
+            <p>
+              Experience unmatched comfort and style with our carefully curated
+              selection of handpicked hotels. Each property reflects our
+              commitment to excellence and guest satisfaction.
+            </p>
+          </div>
+          <div class="card2">
+            <i
+              style="color: #f75632; font-size: 4rem; margin-bottom: 2rem"
+              class="fa-solid fa-map-location-dot"
+            ></i>
+            <h3>World Class Service</h3>
+            <p>
+              Elevate your travel experience with our world-class service. From
+              personalized itineraries to attentive support, we ensure every
+              moment exceeds expectations, creating unforgettable journeys.
+            </p>
+          </div>
+        </div>
+        <div class="card3">
+          <i
+            class="fa-solid fa-hand-holding-dollar"
+            style="font-size: 4rem"
+          ></i>
+          <h3>Best Price Guarantee</h3>
+          <p>
+            Unlock unbeatable value with our Best Price Guarantee. Enjoy
+            exceptional savings without compromising on quality, ensuring your
+            journey is not only memorable but affordable.
+          </p>
+        </div>
+      </section>
+
+      <!-- Deals and Discounts -->
+      <section>
         <h1
           style="
-            font-size: 2.5rem;
-            text-align: center;
             color: #131318;
-            margin-bottom: 1.5rem;
+            text-align: center;
+            text-align: center;
+            font-size: 2.5rem;
           "
         >
-          Choose Your Destination
+          Deals & Discounts
         </h1>
         <p
           style="
+            color: #5a5a5d;
+            line-height: 1.5rem;
             text-align: center;
-            color: rgba(19, 19, 24, 0.7);
             margin-bottom: 3rem;
           "
         >
-          Destination Dreams: Discover, Explore, Unwind. Your Adventure Awaits –
-          Choose Your Next Escape with Us!
-        </p>
-        <div class="dest-img">
-          <div class="dest-img1">
-            <img src="Images/maldives.png" alt="" />
-            <img src="Images/Indonesia.png" alt="" />
-          </div>
-          <div class="dest-img2">
-            <img src="Images/srilanka.png" alt="" />
-            <img src="Images/N america.png" alt="" />
-            <img src="Images/kashmir.png" alt="" />
-          </div>
-          <div class="dest-img3">
-            <img src="Images/Bangla.png" alt="" />
-            <img src="Images/bandorban.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- why choose sec -->
-    <section>
-      <div class="why">
-        <h1>Why Choose Us</h1>
-        <p>
-          Exceptional service, curated adventures, and customer satisfaction.
-          Choose us for seamless travel experiences that create lasting memories
-          and exceed expectations.
-        </p>
-      </div>
-      <div class="feature">
-        <div class="card1">
-          <i
-            style="color: #fedfad; font-size: 4rem; margin-bottom: 2rem"
-            class="fa-solid fa-hotel"
-          ></i>
-          <h3>Handpicked Hotels</h3>
-          <p>
-            Experience unmatched comfort and style with our carefully curated
-            selection of handpicked hotels. Each property reflects our
-            commitment to excellence and guest satisfaction.
-          </p>
-        </div>
-        <div class="card2">
-          <i
-            style="color: #f75632; font-size: 4rem; margin-bottom: 2rem"
-            class="fa-solid fa-map-location-dot"
-          ></i>
-          <h3>World Class Service</h3>
-          <p>
-            Elevate your travel experience with our world-class service. From
-            personalized itineraries to attentive support, we ensure every
-            moment exceeds expectations, creating unforgettable journeys.
-          </p>
-        </div>
-      </div>
-      <div class="card3">
-        <i class="fa-solid fa-hand-holding-dollar" style="font-size: 4rem"></i>
-        <h3>Best Price Guarantee</h3>
-        <p>
           Unlock unbeatable value with our Best Price Guarantee. Enjoy
           exceptional savings without compromising on quality, ensuring your
           journey is not only memorable but affordable.
         </p>
-      </div>
-    </section>
+        <div class="deal1">
+          <div class="gen-deal">
+            <p class="head-inf">
+              <span><i class="fa-solid fa-clock"></i> 7day/6 Night</span>
+              <span><i class="fa-solid fa-users"></i> Max: 10</span>
+              <span> <i class="fa-solid fa-location-dot"></i>Malaysia</span>
+            </p>
+            <h3>Tour to Satorini</h3>
+            <p>
+              Embark on a mesmerizing tour to Santorini, where azure waters,
+              charming villages, and ancient history converge for an
+              unforgettable Mediterranean escape. Book your Santorini adventure
+              today!
+            </p>
+            <p class="price">Price: $1300-$1500</p>
+            <button>Book Now</button>
+          </div>
+        </div>
+        <div class="deal2">
+          <div class="gen-deal">
+            <p class="head-inf">
+              <span><i class="fa-solid fa-clock"></i> 7day/6 Night</span>
+              <span><i class="fa-solid fa-users"></i> Max: 10</span>
+              <span> <i class="fa-solid fa-location-dot"></i>Bangladesh</span>
+            </p>
+            <h3>Tour to Honolulu</h3>
+            <p>
+              Experience the enchanting beauty of Bandarban on our immersive
+              tour. Explore lush landscapes, indigenous culture, and scenic
+              vistas in this hidden gem of Bangladesh. Book your Bandarban
+              adventure now!
+            </p>
+            <p class="price">Price: $1000-$1200</p>
+            <button>Book Now</button>
+          </div>
+        </div>
+        <div class="deal3">
+          <div class="gen-deal">
+            <p class="head-inf">
+              <span><i class="fa-solid fa-clock"></i> 7day/6 Night</span>
+              <span><i class="fa-solid fa-users"></i> Max: 10</span>
+              <span>
+                <i class="fa-solid fa-location-dot"></i>North America</span
+              >
+            </p>
+            <h3>Tour to Honolulu</h3>
+            <p>
+              Discover the tropical paradise of Honolulu on our captivating
+              tour. From pristine beaches to vibrant culture, immerse yourself
+              in the beauty of Hawaii's capital. Reserve your Honolulu tour
+              now!"
+            </p>
+            <p class="price">Price: $1600-$2000</p>
+            <button>Book Now</button>
+          </div>
+        </div>
+        <button class="gen-btn">
+          <a href="">See All Packages</a>
+        </button>
+      </section>
 
-    <!-- Deals and Discounts -->
-    <section>
-      <h1
-        style="
-          color: #131318;
-          text-align: center;
-          text-align: center;
-          font-size: 2.5rem;
-        "
-      >
-        Deals & Discounts
-      </h1>
-      <p
-        style="
-          color: #5a5a5d;
-          line-height: 1.5rem;
-          text-align: center;
-          margin-bottom: 3rem;
-        "
-      >
-        Unlock unbeatable value with our Best Price Guarantee. Enjoy exceptional
-        savings without compromising on quality, ensuring your journey is not
-        only memorable but affordable.
-      </p>
-      <div class="deal1">
-        <div class="gen-deal">
-          <p class="head-inf">
-            <span><i class="fa-solid fa-clock"></i> 7day/6 Night</span>
-            <span><i class="fa-solid fa-users"></i> Max: 10</span>
-            <span> <i class="fa-solid fa-location-dot"></i>Malaysia</span>
-          </p>
-          <h3>Tour to Satorini</h3>
+      <!-- bangladesh sec -->
+      <section class="bd-malay">
+        <div class="bm">
+          <h1>A Simple Perfect Place To Get Lost</h1>
           <p>
-            Embark on a mesmerizing tour to Santorini, where azure waters,
-            charming villages, and ancient history converge for an unforgettable
-            Mediterranean escape. Book your Santorini adventure today!
+            Embark on a captivating tour to Bangladesh, where rich history,
+            vibrant culture, and natural wonders converge. Explore the beauty of
+            Bangladesh with our curated and unforgettable travel experiences.
+            Why consider:
           </p>
-          <p class="price">Price: $1300-$1500</p>
-          <button>Book Now</button>
+          <ul>
+            <li>
+              Bangladesh boasts a rich cultural heritage, blending ancient
+              traditions with modern influences. Explore vibrant festivals,
+              historical landmarks, and the warmth of Bangladeshi hospitality.
+            </li>
+            <li>
+              From the serene Sundarbans to the picturesque hills of Sylhet,
+              Bangladesh offers diverse landscapes. Discover breathtaking
+              scenery, lush greenery, and the unique beauty of this South Asian
+              gem.
+            </li>
+            <button class="gen-btn" style="display: inline">
+              <a href="">See More</a>
+            </button>
+          </ul>
         </div>
-      </div>
-      <div class="deal2">
-        <div class="gen-deal">
-          <p class="head-inf">
-            <span><i class="fa-solid fa-clock"></i> 7day/6 Night</span>
-            <span><i class="fa-solid fa-users"></i> Max: 10</span>
-            <span> <i class="fa-solid fa-location-dot"></i>Bangladesh</span>
-          </p>
-          <h3>Tour to Honolulu</h3>
-          <p>
-            Experience the enchanting beauty of Bandarban on our immersive tour.
-            Explore lush landscapes, indigenous culture, and scenic vistas in
-            this hidden gem of Bangladesh. Book your Bandarban adventure now!
-          </p>
-          <p class="price">Price: $1000-$1200</p>
-          <button>Book Now</button>
+        <div class="place">
+          <video controls src="videos/Sajek Valley.mp4"></video>
         </div>
-      </div>
-      <div class="deal3">
-        <div class="gen-deal">
-          <p class="head-inf">
-            <span><i class="fa-solid fa-clock"></i> 7day/6 Night</span>
-            <span><i class="fa-solid fa-users"></i> Max: 10</span>
-            <span> <i class="fa-solid fa-location-dot"></i>North America</span>
-          </p>
-          <h3>Tour to Honolulu</h3>
-          <p>
-            Discover the tropical paradise of Honolulu on our captivating tour.
-            From pristine beaches to vibrant culture, immerse yourself in the
-            beauty of Hawaii's capital. Reserve your Honolulu tour now!"
-          </p>
-          <p class="price">Price: $1600-$2000</p>
-          <button>Book Now</button>
-        </div>
-      </div>
-      <button class="gen-btn">
-        <a href="">See All Packages</a>
-      </button>
-    </section>
+      </section>
 
-    <!-- bangladesh sec -->
-    <section class="bangladesh">
-      <div class="bd">
-        <h1>A Simple Perfect Place To Get Lost</h1>
-        <p>
-          Embark on a captivating tour to Bangladesh, where rich history,
-          vibrant culture, and natural wonders converge. Explore the beauty of
-          Bangladesh with our curated and unforgettable travel experiences. Why
-          consider:
-        </p>
-        <ul>
-          <li>
-            Bangladesh boasts a rich cultural heritage, blending ancient
-            traditions with modern influences. Explore vibrant festivals,
-            historical landmarks, and the warmth of Bangladeshi hospitality.
-          </li>
-          <li>
-            From the serene Sundarbans to the picturesque hills of Sylhet,
-            Bangladesh offers diverse landscapes. Discover breathtaking scenery,
-            lush greenery, and the unique beauty of this South Asian gem.
-          </li>
-          <button class="gen-btn" style="display: inline">
-            <a href="">See More</a>
-          </button>
-        </ul>
-      </div>
-      <div class="sazek">
-        <video controls src="videos/Sajek Valley.mp4"></video>
-      </div>
-    </section>
-    <!-- newsletter sec -->
-    <section class="newsletter">
-      <div class="news-l">
-        <h3>Newsletter</h3>
-        <p>Get your daily dose of travel news & tips. Sign up today!</p>
-        <hr style="margin:1rem 0;">
-        <input placeholder="Enter your name" type="text" name="" id="" />
-        <input placeholder="Enter your email" type="text" name="" id="" />
-        <button style="background:#FF5400; color: #fff;">Subscribe</button>
-      </div>
-      <div class="news-img">
-        <div class="nature-img"><img src="Images/news-l-img.png" alt=""></div>
-        <div class="save70"><p><a href="">Travel.com</a><br><b>Save up to 70%</b></p></div>
-      </div>
-    </section>
+      <!-- malaysia sec -->
+      <section class="bd-malay">
+        <div class="bm">
+          <h1>A Place of Great History and Natural Beauty</h1>
+          <p>
+            Embark on a captivating tour to Malaysia, where rich history,
+            vibrant culture, and natural wonders converge. Explore the beauty of Malaysia with our curated and unforgettable travel experiences.
+            Why consider:
+          </p>
+          <ul>
+            <li>
+              Malaysia is a melting pot of cultures, blending Malay, Chinese, Indian, and indigenous influences. Experience a harmonious coexistence of traditions, languages, and festivals.
+            </li>
+            <li>
+              From pristine beaches and tropical rainforests to modern cities, Malaysia offers a diverse landscape. Encounter breathtaking scenery, diverse wildlife, and iconic landmarks like the Petronas Towers.
+            </li>
+            <button class="gen-btn" style="display: inline">
+              <a href="">See More</a>
+            </button>
+          </ul>
+        </div>
+        <div class="place">
+          <video id="malay" controls src="videos/malaysia.mp4"></video>
+        </div>
+      </section>
+      <!-- newsletter sec -->
+      <section class="newsletter">
+        <div class="news-l">
+          <h3>Newsletter</h3>
+          <p>Get your daily dose of travel news & tips. Sign up today!</p>
+          <hr style="margin: 1rem 0" />
+          <input placeholder="Enter your name" type="text" name="" id="" />
+          <input placeholder="Enter your email" type="text" name="" id="" />
+          <button style="background: #ff5400; color: #fff">Subscribe</button>
+        </div>
+        <div class="news-img">
+          <div class="nature-img">
+            <img src="Images/news-l-img.png" alt="" />
+          </div>
+          <div class="save70">
+            <p><a href="">Travel.com</a><br /><b>Save up to 70%</b></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- footer sec -->
+      <section>
+        <div class="foot">
+          <h1><img src="Images/plane.png" alt="" /><span id="zoro"> Zoro
+            <span style="color: #ff5400">Travel</span></span> 
+          </h1>
+          <p>Follow us for updates, travel tips, and exclusive deals. Your incredible journey doesn't stop here; it continues with us. Cheers to wanderlust and lifelong memories!</p>
+          <div class="icon
+          ">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <hr style="margin: 3rem auto; background: rgba(19, 19, 24, 0.10); width: 80%;">
+          <p style="color: #131318;;"><i class="fa-regular fa-copyright"></i> 2017, All Rights Reserved.</p>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
