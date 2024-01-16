@@ -180,3 +180,108 @@
   margin: 1.5rem auto;
   width: 40%;
 }
+
+/* Deals & Discounts*/
+.gen-deal{
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  width: 50%;
+  padding: 3.5rem;
+}
+.gen-deal i {
+  color: #FF5400;
+}
+.gen-deal span{
+  margin-right: 1.5rem;
+}
+.gen-deal .head-inf{
+  margin-bottom: 1.5rem;
+}
+.gen-deal h3 {
+  color: #131318;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.gen-deal p{
+  color: #5A5A5D;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+.gen-deal .price{
+  color: #FF5400;
+  font-weight: 800
+}
+.gen-deal button{
+  color: #FFF;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  background: #FF5400;
+}
+.deal1, .deal3{
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(../Images/deal1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+.deal2{
+  background-image: url(../Images/deal2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+.gen-btn {
+  display: block;
+  border-radius: 8px;
+  background: #FF5400;
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin: 0 auto;
+  width: max-content;
+  
+}
+.gen-btn a {
+  text-decoration: none;
+  text-align: center;
+  color: #FFF;
+}
+
+/* bd sec */
+.bangladesh{
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  margin: 6.25rem 0;
+}
+.bd {
+  max-width: 50%;
+}
+.bd h1{
+  color: #131318;
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  margin-bottom: 1.5rem;
+}
+.bd p {
+  color: #5A5A5D;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.bd ul {
+  margin-left: 1.5rem;
+  font-weight: 700;
+}
+.bd button {
+  margin-top: 2rem;
+}
+.sazek video {
+  height: 80%;
+  border-radius: 0.5rem;
+}
